@@ -87,7 +87,7 @@ Reference projected region [400,220,600,460) on 2048×1536
 ```bash
 python -m pip install -r requirements.txt
 
-python -m unittest discover -s cv/tests -p 'test_roi_crop_multires.py' -v
+python -m unittest discover -s tests -p 'test_roi_crop_multires.py' -v
 
 python experiments/roi_crop_multires/generate_demo.py
 ```
