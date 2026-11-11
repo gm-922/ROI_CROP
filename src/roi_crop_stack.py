@@ -7,7 +7,7 @@ infer camera calibration from G-code data alone.
 Example:
   python src/roi_crop_stack.py \
       --mask /path/to/stack.png --camera /path/to/frame.jpg \
-      --calibration demo_calibration.json \
+      --calibration experiments/roi_crop_stack_poc/demo_calibration.json \
       --output-dir output --margin 35
 """
 from __future__ import annotations

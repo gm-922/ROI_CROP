@@ -2,7 +2,7 @@
 
 - **실험일 / 재검증일:** 2026-11-10 (Asia/Seoul)
 - **담당:** CV Team — 최강민
-- **대상 구현:** [ROI Crop 스크립트](src/roi_crop_stack.py) / [단위 테스트](tests/test_roi_crop_stack.py)
+- **대상 구현:** [ROI Crop 스크립트](../../src/roi_crop_stack.py) / [단위 테스트](../../tests/test_roi_crop_stack.py)
 - **판정:** `ROI Crop 기능 동작 확인(PoC)`; **레이어 대응·독립 좌표 정합 정확도 미검증**
 
 ## 1. 실험 목적과 입력 데이터
@@ -62,7 +62,7 @@ python -m pip install -r requirements.txt
 python src/roi_crop_stack.py \
   --mask /local/path/layer_0240.png \
   --camera /local/path/bambu_p1s_651_L217_중앙조절.jpg \
-  --calibration demo_calibration.json \
+  --calibration experiments/roi_crop_stack_poc/demo_calibration.json \
   --output-dir /local/path/roi_output \
   --margin 35
 python -m unittest discover -s tests -p 'test_roi_crop_stack.py' -v

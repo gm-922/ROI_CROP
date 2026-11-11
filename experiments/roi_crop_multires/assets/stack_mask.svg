@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" role="img" aria-label="synthetic stack mask">
+<rect width="500" height="350" fill="#101b2b"/>
+<text x="24" y="38" font-family="Arial,sans-serif" fill="#f2f6fa" font-size="20" font-weight="bold">Synthetic Stack Mask · 80×60</text>
+<rect x="84" y="62" width="320" height="240" fill="#070d15" stroke="#65829c" stroke-width="2"/>
+<rect x="164" y="102" width="80" height="80" fill="#d5dbe0"/>
+<text x="84" y="329" font-family="Arial,sans-serif" fill="#b6c7d9" font-size="15">Foreground threshold &gt; 10 · BBox [20,10,40,30)</text>
+</svg>

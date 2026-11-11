@@ -14,3 +14,6 @@ roi_output/
 # Editor and OS
 .DS_Store
 .vscode/
+
+# Multi-resolution demo output (generated locally)
+experiments/roi_crop_multires/runs/

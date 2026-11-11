@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 405" role="img" aria-label="1280 by 720 synthetic camera, ROI overlay, and crop">
+<rect width="1200" height="405" rx="18" fill="#101b2b"/>
+<text x="28" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#f5f8fc">1280 × 720  |  Synthetic ROI Crop</text>
+<text x="28" y="68" font-family="Arial,sans-serif" font-size="14" fill="#afc1d3">Known resize: stretch  ·  Reference: 2048×1536  ·  Illustrated synthetic fixture (not camera footage)</text>
+<rect x="20" y="85" width="365" height="300" rx="12" fill="#1c3045"/>
+<rect x="417" y="85" width="365" height="300" rx="12" fill="#1c3045"/>
+<rect x="814" y="85" width="365" height="300" rx="12" fill="#1c3045"/>
+<rect x="42.00" y="120.00" width="320.00" height="180.00" fill="#0c1a29" stroke="#57758d" stroke-width="1.5" opacity="1"/><rect x="104.50" y="145.78" width="31.25" height="28.13" fill="#f3d578" stroke="none" stroke-width="0" opacity="1"/>
+<rect x="438.00" y="120.00" width="320.00" height="180.00" fill="#0c1a29" stroke="#57758d" stroke-width="1.5" opacity="1"/><rect x="500.50" y="145.78" width="31.25" height="28.13" fill="#f3d578" stroke="none" stroke-width="0" opacity="1"/><rect x="500.50" y="145.78" width="31.25" height="28.13" fill="#54d7ef" stroke="#54d7ef" stroke-width="1.5" opacity="0.35"/><rect x="495.00" y="141.50" width="42.25" height="36.75" fill="none" stroke="#5ce3b6" stroke-width="2.7" opacity="1"/>
+<rect x="892.16" y="107.50" width="235.68" height="205.00" fill="#0c1a29" stroke="#5ce3b6" stroke-width="2.5"/><rect x="922.84" y="131.38" width="174.32" height="156.89" fill="#f3d578"/>
+<text x="34" y="340" font-family="Arial,sans-serif" font-size="17" fill="#f1f6fa" font-weight="bold">1. INPUT FRAME</text>
+<text x="34" y="364" font-family="Arial,sans-serif" font-size="13" fill="#afc1d3">1280×720  ·  yellow: synthetic print</text>
+<text x="431" y="340" font-family="Arial,sans-serif" font-size="17" fill="#f1f6fa" font-weight="bold">2. MASK / ROI OVERLAY</text>
+<text x="431" y="364" font-family="Arial,sans-serif" font-size="13" fill="#afc1d3">cyan: predicted footprint  ·  green: crop</text>
+<text x="828" y="340" font-family="Arial,sans-serif" font-size="17" fill="#f1f6fa" font-weight="bold">3. CROPPED OUTPUT</text>
+<text x="828" y="364" font-family="Arial,sans-serif" font-size="13" fill="#afc1d3">169×147 px  ·  area reduced 97.30%</text>
+<text x="828" y="383" font-family="Arial,sans-serif" font-size="12" fill="#afc1d3">ROI [228, 86, 397, 233)</text>
+</svg>

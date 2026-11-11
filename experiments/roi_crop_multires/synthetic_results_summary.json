@@ -1,0 +1,95 @@
+{
+  "type": "synthetic_resize_geometry_test_only",
+  "reference_camera_wh": [
+    2048,
+    1536
+  ],
+  "resize_mode": "stretch",
+  "status": "local functional testing; NOT independent real-camera calibration or ROI accuracy",
+  "results": [
+    {
+      "resolution_wh": [
+        2048,
+        1536
+      ],
+      "camera_crop_xyxy_exclusive": [
+        365,
+        185,
+        635,
+        495
+      ],
+      "camera_crop_wh": [
+        270,
+        310
+      ],
+      "margin_camera_xy_px": [
+        35,
+        35
+      ],
+      "pixel_area_reduction_percent": 97.34
+    },
+    {
+      "resolution_wh": [
+        1920,
+        1080
+      ],
+      "camera_crop_xyxy_exclusive": [
+        342,
+        129,
+        596,
+        349
+      ],
+      "camera_crop_wh": [
+        254,
+        220
+      ],
+      "margin_camera_xy_px": [
+        33,
+        25
+      ],
+      "pixel_area_reduction_percent": 97.31
+    },
+    {
+      "resolution_wh": [
+        1280,
+        720
+      ],
+      "camera_crop_xyxy_exclusive": [
+        228,
+        86,
+        397,
+        233
+      ],
+      "camera_crop_wh": [
+        169,
+        147
+      ],
+      "margin_camera_xy_px": [
+        22,
+        17
+      ],
+      "pixel_area_reduction_percent": 97.3
+    },
+    {
+      "resolution_wh": [
+        640,
+        480
+      ],
+      "camera_crop_xyxy_exclusive": [
+        114,
+        57,
+        199,
+        155
+      ],
+      "camera_crop_wh": [
+        85,
+        98
+      ],
+      "margin_camera_xy_px": [
+        11,
+        11
+      ],
+      "pixel_area_reduction_percent": 97.29
+    }
+  ]
+}

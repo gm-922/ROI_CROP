@@ -1,0 +1,21 @@
+{
+  "calibration_type": "SYNTHETIC_FIXTURE_ONLY",
+  "reference_camera_wh": [
+    2048,
+    1536
+  ],
+  "resize_mode": "stretch",
+  "mask_to_camera_affine_2x3": [
+    [
+      10,
+      0,
+      200
+    ],
+    [
+      0,
+      12,
+      100
+    ]
+  ],
+  "notes": "Synthetic known geometry only; not calibrated for a real Bambu P1S camera."
+}
