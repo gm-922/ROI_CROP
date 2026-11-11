@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local full-resolution input and generated outputs
+assets/input/
+assets/output/
+output/
+roi_output/
+
+# Editor and OS
+.DS_Store
+.vscode/
