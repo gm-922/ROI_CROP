@@ -1,0 +1,63 @@
+{
+  "status": "proof_of_concept__not_same_layer__uncalibrated",
+  "mask_file": "layer_0240.png",
+  "camera_file": "bambu_p1s_651_L217_중앙조절.jpg",
+  "camera_wh": [
+    2048,
+    1536
+  ],
+  "stack_mask_wh": [
+    2048,
+    2048
+  ],
+  "mask_foreground_threshold": 10,
+  "calibration_file": "demo_calibration.json",
+  "calibration_notes": "ONE-IMAGE PROTOTYPE only: L240 stack-mask outline aligned to L217 camera photo. Camera bbox estimated from the largest >140 gray-scale component in search rectangle (650,550,1350,1050). This uses observed pixels for initial alignment and is NOT G-code-only camera localization; do not reuse on another camera setup or call it accuracy validation. Requires independent bed-marker/camera calibration.",
+  "mask_to_camera_affine_2x3": [
+    [
+      0.6142857142857143,
+      0,
+      377.97142857142853
+    ],
+    [
+      0,
+      0.6172413793103448,
+      140.44482758620688
+    ]
+  ],
+  "mask_bbox_xyxy_exclusive": [
+    744,
+    879,
+    1304,
+    1169
+  ],
+  "projected_mask_corners_xy": [
+    [
+      835,
+      683
+    ],
+    [
+      1179,
+      683
+    ],
+    [
+      1179,
+      862
+    ],
+    [
+      835,
+      862
+    ]
+  ],
+  "camera_crop_xyxy_exclusive": [
+    800,
+    648,
+    1214,
+    897
+  ],
+  "camera_crop_wh": [
+    414,
+    249
+  ],
+  "margin_camera_px": 35
+}

@@ -1,0 +1,40 @@
+{
+  "version": "demo-0",
+  "mask_to_camera_affine_2x3": [
+    [
+      0.6142857142857143,
+      0,
+      377.97142857142853
+    ],
+    [
+      0,
+      0.6172413793103448,
+      140.44482758620688
+    ]
+  ],
+  "notes": "ONE-IMAGE PROTOTYPE only: L240 stack-mask outline aligned to L217 camera photo. Camera bbox estimated from the largest >140 gray-scale component in search rectangle (650,550,1350,1050). This uses observed pixels for initial alignment and is NOT G-code-only camera localization; do not reuse on another camera setup or call it accuracy validation. Requires independent bed-marker/camera calibration.",
+  "calibration_source": {
+    "mask_layer": 240,
+    "camera_filename_layer_label": "L217",
+    "camera_segmentation_threshold": 140,
+    "camera_search_xyxy_exclusive": [
+      650,
+      550,
+      1350,
+      1050
+    ],
+    "camera_object_bbox_xyxy_exclusive": [
+      835,
+      683,
+      1179,
+      862
+    ],
+    "mask_bbox_xyxy_exclusive": [
+      744,
+      879,
+      1304,
+      1169
+    ],
+    "caveat": "layer correspondence not verified; files have different layer labels"
+  }
+}
